@@ -1,2 +1,4 @@
 source: ./raw
 destination: ./docs
+plugins:
+  - jekyll-sitemap
