@@ -1,4 +1,4 @@
-name: Build and deploy Jekyll to GitHub Pages
+name: Build and deploy Jekyll site to GitHub Pages
 
 on:
   push:
@@ -6,10 +6,10 @@ on:
       - master
 
 jobs:
-  jekyll: # same name as file
+  jekyll:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
       - uses: helaili/jekyll-action@v2
         with:
-          token: ${{ secrets.GTIHUB_TOKEN }}
+          token: ${{ secrets.GITHUB_TOKEN }}
