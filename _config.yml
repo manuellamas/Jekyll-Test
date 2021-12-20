@@ -1,4 +1,5 @@
 source: ./raw
 destination: ./docs
+url: https://manuellamas.github.io/Jekyll-Test
 plugins:
   - jekyll-sitemap
