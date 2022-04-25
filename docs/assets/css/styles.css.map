@@ -7,8 +7,8 @@
 	],
 	"sourcesContent": [
 		"@import 'main'",
-		".current{\r\n    color: red;\r\n}"
+		".current{\r\n    color: red;\r\n}\r\n\r\nblockquote p{\r\n    font-style: italic;\r\n    // quotes: '\"' '\"';\r\n}\r\nblockquote p::before {\r\n    content: open-quote;\r\n}\r\nblockquote p::after {\r\n    content: close-quote;\r\n}"
 	],
 	"names": [],
-	"mappings": "ACAA,AAAA,QAAQ,CAAA,EACJ,KAAK,EAAE,GAAG,GACb"
+	"mappings": "ACAA,AAAA,QAAQ,CAAA,EACJ,KAAK,EAAE,GAAG,GACb;;AAED,AAAA,UAAU,CAAC,CAAC,CAAA,EACR,UAAU,EAAE,MAAM,GAErB;;AACD,AAAA,UAAU,CAAC,CAAC,EAAE,MAAM,CAAC,EACjB,OAAO,EAAE,UAAU,GACtB;;AACD,AAAA,UAAU,CAAC,CAAC,EAAE,KAAK,CAAC,EAChB,OAAO,EAAE,WAAW,GACvB"
 }

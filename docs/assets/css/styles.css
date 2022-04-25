@@ -1,3 +1,9 @@
 .current { color: red; }
 
+blockquote p { font-style: italic; }
+
+blockquote p::before { content: open-quote; }
+
+blockquote p::after { content: close-quote; }
+
 /*# sourceMappingURL=styles.css.map */
